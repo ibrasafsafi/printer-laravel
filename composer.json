@@ -1,0 +1,27 @@
+{
+    "name": "ibrasafsafi/printer-laravel",
+    "description": "This Package helps You Generate your reports as PDF.",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ibrasafsafi\\PrinterLaravel\\": "src"
+        }
+    },
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "safsafi",
+            "email": "safsafi820@gmail.com"
+        }
+    ],
+    "require": {},
+
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ibrasafsafi\\PrinterLaravel\\Providers\\PrinterServiceProvider"
+            ]
+        }
+    }
+}
+
