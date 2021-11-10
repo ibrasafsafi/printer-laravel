@@ -23,6 +23,6 @@ class PrinterServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        dd("OOOOOKKKKKKKKKK");
+        //dd("OOOOOKKKKKKKKKK");
     }
 }
